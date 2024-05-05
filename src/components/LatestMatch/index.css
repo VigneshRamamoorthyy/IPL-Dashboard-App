@@ -1,0 +1,155 @@
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  width: 100%;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.logo-and-team-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-and-team-details-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-sub-1 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-sub-1 {
+    width: 30%;
+    align-self: flex-start;
+  }
+}
+
+.competing-team {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 34px;
+  }
+}
+
+.match-date {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .match-date {
+    font-size: 24px;
+  }
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details {
+    font-size: 16px;
+  }
+}
+
+.competing_team_logo {
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing_team_logo {
+    width: 200px;
+  }
+}
+
+.line-break {
+  border: #475569 1px solid;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .line-break {
+    display: none;
+  }
+}
+
+.latest-match-details-sub-2 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-sub-2 {
+    width: 33%;
+    text-align: right;
+    padding-left: 0px;
+  }
+}
+
+.innings-header {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .innings-header {
+    font-size: 18px;
+  }
+}
+
+.award-header {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .award-header {
+    font-size: 18px;
+  }
+}
+
+.latest-match-details {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details {
+    font-size: 14px;
+  }
+}
